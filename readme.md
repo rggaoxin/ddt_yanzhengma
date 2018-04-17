@@ -1,0 +1,14 @@
+----接口测试框架（兼容python3）-----
+case：测试用例
+common：公共模块
+    base_api：封装的request请求
+    BSTestRunner：封装的测试报告模板
+    get_mysql：封装读取mysql数据库
+    HTMLTestRunner_jpg：封装的测试报告模板
+    log：封装的日志（未使用）
+    readexcel：封装读取excel表格
+    send_email：封装发送邮件
+    writeexcel：封装写入数据
+data：测试数据
+report：测试报告及测试生成的excel结果
+run_all：运行脚本并发送邮件
